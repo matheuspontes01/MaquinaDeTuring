@@ -1,0 +1,1281 @@
+==============================================================================
+ENTRADA: A0#0
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [A] 0  #  0  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_and
+   Fita 1:  A [0] #  0  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_and_0
+   Fita 1:  A  x [#] 0  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_and_0w2
+   Fita 1:  A  x  # [0] B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_and_volta2
+   Fita 1:  A  x [#] x  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   5 | estado: q_and_volta1
+   Fita 1:  A [x] #  x  B   (cabeca 1 na posicao 1)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   6 | estado: q_and
+   Fita 1:  A  x [#] x  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   7 | estado: q_rest_dir
+   Fita 1:  A  x  # [x] B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_rest_dir
+   Fita 1:  A  x  #  0 [B] B   (cabeca 1 na posicao 4)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_rest_esq
+   Fita 1:  A  x  # [0] B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_rest_esq
+   Fita 1:  A  x [#] 0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_rest_esq
+   Fita 1:  A [x] #  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_rest_esq
+   Fita 1: [A] 0  #  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  13 | estado: q_aceita
+   Fita 1: [A] 0  #  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+-> Maquina parou em q_aceita apos 13 passos: ACEITA
+-> Fita 1 final: A0#0
+-> Fita 2 final: 0
+
+==============================================================================
+ENTRADA: A101#110
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [A] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_and
+   Fita 1:  A [1] 0  1  #  1  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_and_1
+   Fita 1:  A  y [0] 1  #  1  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_and_1
+   Fita 1:  A  y  0 [1] #  1  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_and_1
+   Fita 1:  A  y  0  1 [#] 1  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_and_1w2
+   Fita 1:  A  y  0  1  # [1] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   6 | estado: q_and_volta2
+   Fita 1:  A  y  0  1 [#] y  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   7 | estado: q_and_volta1
+   Fita 1:  A  y  0 [1] #  y  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_and_volta1
+   Fita 1:  A  y [0] 1  #  y  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_and_volta1
+   Fita 1:  A [y] 0  1  #  y  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_and
+   Fita 1:  A  y [0] 1  #  y  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_and_0
+   Fita 1:  A  y  x [1] #  y  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_and_0
+   Fita 1:  A  y  x  1 [#] y  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  13 | estado: q_and_0w2
+   Fita 1:  A  y  x  1  # [y] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  14 | estado: q_and_0w2
+   Fita 1:  A  y  x  1  #  y [1] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  15 | estado: q_and_volta2
+   Fita 1:  A  y  x  1  # [y] y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  16 | estado: q_and_volta2
+   Fita 1:  A  y  x  1 [#] y  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  17 | estado: q_and_volta1
+   Fita 1:  A  y  x [1] #  y  y  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  18 | estado: q_and_volta1
+   Fita 1:  A  y [x] 1  #  y  y  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  19 | estado: q_and
+   Fita 1:  A  y  x [1] #  y  y  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  20 | estado: q_and_1
+   Fita 1:  A  y  x  y [#] y  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  21 | estado: q_and_1w2
+   Fita 1:  A  y  x  y  # [y] y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_and_1w2
+   Fita 1:  A  y  x  y  #  y [y] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_and_1w2
+   Fita 1:  A  y  x  y  #  y  y [0] B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_and_volta2
+   Fita 1:  A  y  x  y  #  y [y] x  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  25 | estado: q_and_volta2
+   Fita 1:  A  y  x  y  # [y] y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  26 | estado: q_and_volta2
+   Fita 1:  A  y  x  y [#] y  y  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  27 | estado: q_and_volta1
+   Fita 1:  A  y  x [y] #  y  y  x  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  28 | estado: q_and
+   Fita 1:  A  y  x  y [#] y  y  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  29 | estado: q_rest_dir
+   Fita 1:  A  y  x  y  # [y] y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  30 | estado: q_rest_dir
+   Fita 1:  A  y  x  y  #  1 [y] x  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  31 | estado: q_rest_dir
+   Fita 1:  A  y  x  y  #  1  1 [x] B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  32 | estado: q_rest_dir
+   Fita 1:  A  y  x  y  #  1  1  0 [B] B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  33 | estado: q_rest_esq
+   Fita 1:  A  y  x  y  #  1  1 [0] B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  34 | estado: q_rest_esq
+   Fita 1:  A  y  x  y  #  1 [1] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  35 | estado: q_rest_esq
+   Fita 1:  A  y  x  y  # [1] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  36 | estado: q_rest_esq
+   Fita 1:  A  y  x  y [#] 1  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  37 | estado: q_rest_esq
+   Fita 1:  A  y  x [y] #  1  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  38 | estado: q_rest_esq
+   Fita 1:  A  y [x] 1  #  1  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  39 | estado: q_rest_esq
+   Fita 1:  A [y] 0  1  #  1  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  40 | estado: q_rest_esq
+   Fita 1: [A] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  41 | estado: q_aceita
+   Fita 1: [A] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+-> Maquina parou em q_aceita apos 41 passos: ACEITA
+-> Fita 1 final: A101#110
+-> Fita 2 final: 100
+
+==============================================================================
+ENTRADA: A11010#10011
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [A] 1  1  0  1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_and
+   Fita 1:  A [1] 1  0  1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_and_1
+   Fita 1:  A  y [1] 0  1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_and_1
+   Fita 1:  A  y  1 [0] 1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_and_1
+   Fita 1:  A  y  1  0 [1] 0  #  1  0  0  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_and_1
+   Fita 1:  A  y  1  0  1 [0] #  1  0  0  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   6 | estado: q_and_1
+   Fita 1:  A  y  1  0  1  0 [#] 1  0  0  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   7 | estado: q_and_1w2
+   Fita 1:  A  y  1  0  1  0  # [1] 0  0  1  1  B   (cabeca 1 na posicao 7)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   8 | estado: q_and_volta2
+   Fita 1:  A  y  1  0  1  0 [#] y  0  0  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_and_volta1
+   Fita 1:  A  y  1  0  1 [0] #  y  0  0  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_and_volta1
+   Fita 1:  A  y  1  0 [1] 0  #  y  0  0  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_and_volta1
+   Fita 1:  A  y  1 [0] 1  0  #  y  0  0  1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_and_volta1
+   Fita 1:  A  y [1] 0  1  0  #  y  0  0  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  13 | estado: q_and_volta1
+   Fita 1:  A [y] 1  0  1  0  #  y  0  0  1  1  B   (cabeca 1 na posicao 1)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  14 | estado: q_and
+   Fita 1:  A  y [1] 0  1  0  #  y  0  0  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  15 | estado: q_and_1
+   Fita 1:  A  y  y [0] 1  0  #  y  0  0  1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  16 | estado: q_and_1
+   Fita 1:  A  y  y  0 [1] 0  #  y  0  0  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  17 | estado: q_and_1
+   Fita 1:  A  y  y  0  1 [0] #  y  0  0  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  18 | estado: q_and_1
+   Fita 1:  A  y  y  0  1  0 [#] y  0  0  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  19 | estado: q_and_1w2
+   Fita 1:  A  y  y  0  1  0  # [y] 0  0  1  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  20 | estado: q_and_1w2
+   Fita 1:  A  y  y  0  1  0  #  y [0] 0  1  1  B   (cabeca 1 na posicao 8)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  21 | estado: q_and_volta2
+   Fita 1:  A  y  y  0  1  0  # [y] x  0  1  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_and_volta2
+   Fita 1:  A  y  y  0  1  0 [#] y  x  0  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_and_volta1
+   Fita 1:  A  y  y  0  1 [0] #  y  x  0  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_and_volta1
+   Fita 1:  A  y  y  0 [1] 0  #  y  x  0  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  25 | estado: q_and_volta1
+   Fita 1:  A  y  y [0] 1  0  #  y  x  0  1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  26 | estado: q_and_volta1
+   Fita 1:  A  y [y] 0  1  0  #  y  x  0  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  27 | estado: q_and
+   Fita 1:  A  y  y [0] 1  0  #  y  x  0  1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  28 | estado: q_and_0
+   Fita 1:  A  y  y  x [1] 0  #  y  x  0  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  29 | estado: q_and_0
+   Fita 1:  A  y  y  x  1 [0] #  y  x  0  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  30 | estado: q_and_0
+   Fita 1:  A  y  y  x  1  0 [#] y  x  0  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  31 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  1  0  # [y] x  0  1  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  32 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  1  0  #  y [x] 0  1  1  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  33 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  1  0  #  y  x [0] 1  1  B   (cabeca 1 na posicao 9)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  34 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  1  0  #  y [x] x  1  1  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  35 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  1  0  # [y] x  x  1  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  36 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  1  0 [#] y  x  x  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  37 | estado: q_and_volta1
+   Fita 1:  A  y  y  x  1 [0] #  y  x  x  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  38 | estado: q_and_volta1
+   Fita 1:  A  y  y  x [1] 0  #  y  x  x  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  39 | estado: q_and_volta1
+   Fita 1:  A  y  y [x] 1  0  #  y  x  x  1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  40 | estado: q_and
+   Fita 1:  A  y  y  x [1] 0  #  y  x  x  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  41 | estado: q_and_1
+   Fita 1:  A  y  y  x  y [0] #  y  x  x  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  42 | estado: q_and_1
+   Fita 1:  A  y  y  x  y  0 [#] y  x  x  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  43 | estado: q_and_1w2
+   Fita 1:  A  y  y  x  y  0  # [y] x  x  1  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  44 | estado: q_and_1w2
+   Fita 1:  A  y  y  x  y  0  #  y [x] x  1  1  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  45 | estado: q_and_1w2
+   Fita 1:  A  y  y  x  y  0  #  y  x [x] 1  1  B   (cabeca 1 na posicao 9)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  46 | estado: q_and_1w2
+   Fita 1:  A  y  y  x  y  0  #  y  x  x [1] 1  B   (cabeca 1 na posicao 10)
+   Fita 2:  1  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  47 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  0  #  y  x [x] y  1  B   (cabeca 1 na posicao 9)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  48 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  0  #  y [x] x  y  1  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  49 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  0  # [y] x  x  y  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  50 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  0 [#] y  x  x  y  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  51 | estado: q_and_volta1
+   Fita 1:  A  y  y  x  y [0] #  y  x  x  y  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  52 | estado: q_and_volta1
+   Fita 1:  A  y  y  x [y] 0  #  y  x  x  y  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  53 | estado: q_and
+   Fita 1:  A  y  y  x  y [0] #  y  x  x  y  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  54 | estado: q_and_0
+   Fita 1:  A  y  y  x  y  x [#] y  x  x  y  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  55 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  y  x  # [y] x  x  y  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  56 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  y  x  #  y [x] x  y  1  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  57 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  y  x  #  y  x [x] y  1  B   (cabeca 1 na posicao 9)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  58 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  y  x  #  y  x  x [y] 1  B   (cabeca 1 na posicao 10)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  59 | estado: q_and_0w2
+   Fita 1:  A  y  y  x  y  x  #  y  x  x  y [1] B   (cabeca 1 na posicao 11)
+   Fita 2:  1  0  0  1 [B] B   (cabeca 2 na posicao 4)
+Passo  60 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  x  #  y  x  x [y] y  B   (cabeca 1 na posicao 10)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  61 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  x  #  y  x [x] y  y  B   (cabeca 1 na posicao 9)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  62 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  x  #  y [x] x  y  y  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  63 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  x  # [y] x  x  y  y  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  64 | estado: q_and_volta2
+   Fita 1:  A  y  y  x  y  x [#] y  x  x  y  y  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  65 | estado: q_and_volta1
+   Fita 1:  A  y  y  x  y [x] #  y  x  x  y  y  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  66 | estado: q_and
+   Fita 1:  A  y  y  x  y  x [#] y  x  x  y  y  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  67 | estado: q_rest_dir
+   Fita 1:  A  y  y  x  y  x  # [y] x  x  y  y  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  68 | estado: q_rest_dir
+   Fita 1:  A  y  y  x  y  x  #  1 [x] x  y  y  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  69 | estado: q_rest_dir
+   Fita 1:  A  y  y  x  y  x  #  1  0 [x] y  y  B   (cabeca 1 na posicao 9)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  70 | estado: q_rest_dir
+   Fita 1:  A  y  y  x  y  x  #  1  0  0 [y] y  B   (cabeca 1 na posicao 10)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  71 | estado: q_rest_dir
+   Fita 1:  A  y  y  x  y  x  #  1  0  0  1 [y] B   (cabeca 1 na posicao 11)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  72 | estado: q_rest_dir
+   Fita 1:  A  y  y  x  y  x  #  1  0  0  1  1 [B] B   (cabeca 1 na posicao 12)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  73 | estado: q_rest_esq
+   Fita 1:  A  y  y  x  y  x  #  1  0  0  1 [1] B   (cabeca 1 na posicao 11)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  74 | estado: q_rest_esq
+   Fita 1:  A  y  y  x  y  x  #  1  0  0 [1] 1  B   (cabeca 1 na posicao 10)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  75 | estado: q_rest_esq
+   Fita 1:  A  y  y  x  y  x  #  1  0 [0] 1  1  B   (cabeca 1 na posicao 9)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  76 | estado: q_rest_esq
+   Fita 1:  A  y  y  x  y  x  #  1 [0] 0  1  1  B   (cabeca 1 na posicao 8)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  77 | estado: q_rest_esq
+   Fita 1:  A  y  y  x  y  x  # [1] 0  0  1  1  B   (cabeca 1 na posicao 7)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  78 | estado: q_rest_esq
+   Fita 1:  A  y  y  x  y  x [#] 1  0  0  1  1  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  79 | estado: q_rest_esq
+   Fita 1:  A  y  y  x  y [x] #  1  0  0  1  1  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  80 | estado: q_rest_esq
+   Fita 1:  A  y  y  x [y] 0  #  1  0  0  1  1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  81 | estado: q_rest_esq
+   Fita 1:  A  y  y [x] 1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  82 | estado: q_rest_esq
+   Fita 1:  A  y [y] 0  1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  83 | estado: q_rest_esq
+   Fita 1:  A [y] 1  0  1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 1)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  84 | estado: q_rest_esq
+   Fita 1: [A] 1  1  0  1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+Passo  85 | estado: q_aceita
+   Fita 1: [A] 1  1  0  1  0  #  1  0  0  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  0  0  1  0 [B] B   (cabeca 2 na posicao 5)
+-> Maquina parou em q_aceita apos 85 passos: ACEITA
+-> Fita 1 final: A11010#10011
+-> Fita 2 final: 10010
+
+==============================================================================
+ENTRADA: O01#11
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [O] 0  1  #  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_or
+   Fita 1:  O [0] 1  #  1  1  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_or_0
+   Fita 1:  O  x [1] #  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_or_0
+   Fita 1:  O  x  1 [#] 1  1  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_or_0w2
+   Fita 1:  O  x  1  # [1] 1  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_or_volta2
+   Fita 1:  O  x  1 [#] y  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   6 | estado: q_or_volta1
+   Fita 1:  O  x [1] #  y  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   7 | estado: q_or_volta1
+   Fita 1:  O [x] 1  #  y  1  B   (cabeca 1 na posicao 1)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_or
+   Fita 1:  O  x [1] #  y  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_or_1
+   Fita 1:  O  x  y [#] y  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_or_1w2
+   Fita 1:  O  x  y  # [y] 1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_or_1w2
+   Fita 1:  O  x  y  #  y [1] B   (cabeca 1 na posicao 5)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_or_volta2
+   Fita 1:  O  x  y  # [y] y  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  13 | estado: q_or_volta2
+   Fita 1:  O  x  y [#] y  y  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  14 | estado: q_or_volta1
+   Fita 1:  O  x [y] #  y  y  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  15 | estado: q_or
+   Fita 1:  O  x  y [#] y  y  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  16 | estado: q_rest_dir
+   Fita 1:  O  x  y  # [y] y  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  17 | estado: q_rest_dir
+   Fita 1:  O  x  y  #  1 [y] B   (cabeca 1 na posicao 5)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  18 | estado: q_rest_dir
+   Fita 1:  O  x  y  #  1  1 [B] B   (cabeca 1 na posicao 6)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  19 | estado: q_rest_esq
+   Fita 1:  O  x  y  #  1 [1] B   (cabeca 1 na posicao 5)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  20 | estado: q_rest_esq
+   Fita 1:  O  x  y  # [1] 1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  21 | estado: q_rest_esq
+   Fita 1:  O  x  y [#] 1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_rest_esq
+   Fita 1:  O  x [y] #  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_rest_esq
+   Fita 1:  O [x] 1  #  1  1  B   (cabeca 1 na posicao 1)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_rest_esq
+   Fita 1: [O] 0  1  #  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  25 | estado: q_aceita
+   Fita 1: [O] 0  1  #  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+-> Maquina parou em q_aceita apos 25 passos: ACEITA
+-> Fita 1 final: O01#11
+-> Fita 2 final: 11
+
+==============================================================================
+ENTRADA: O101#110
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [O] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_or
+   Fita 1:  O [1] 0  1  #  1  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_or_1
+   Fita 1:  O  y [0] 1  #  1  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_or_1
+   Fita 1:  O  y  0 [1] #  1  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_or_1
+   Fita 1:  O  y  0  1 [#] 1  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_or_1w2
+   Fita 1:  O  y  0  1  # [1] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   6 | estado: q_or_volta2
+   Fita 1:  O  y  0  1 [#] y  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   7 | estado: q_or_volta1
+   Fita 1:  O  y  0 [1] #  y  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_or_volta1
+   Fita 1:  O  y [0] 1  #  y  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_or_volta1
+   Fita 1:  O [y] 0  1  #  y  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_or
+   Fita 1:  O  y [0] 1  #  y  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_or_0
+   Fita 1:  O  y  x [1] #  y  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_or_0
+   Fita 1:  O  y  x  1 [#] y  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  13 | estado: q_or_0w2
+   Fita 1:  O  y  x  1  # [y] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  14 | estado: q_or_0w2
+   Fita 1:  O  y  x  1  #  y [1] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  15 | estado: q_or_volta2
+   Fita 1:  O  y  x  1  # [y] y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  16 | estado: q_or_volta2
+   Fita 1:  O  y  x  1 [#] y  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  17 | estado: q_or_volta1
+   Fita 1:  O  y  x [1] #  y  y  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  18 | estado: q_or_volta1
+   Fita 1:  O  y [x] 1  #  y  y  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  19 | estado: q_or
+   Fita 1:  O  y  x [1] #  y  y  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  20 | estado: q_or_1
+   Fita 1:  O  y  x  y [#] y  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  21 | estado: q_or_1w2
+   Fita 1:  O  y  x  y  # [y] y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_or_1w2
+   Fita 1:  O  y  x  y  #  y [y] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_or_1w2
+   Fita 1:  O  y  x  y  #  y  y [0] B   (cabeca 1 na posicao 7)
+   Fita 2:  1  1 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_or_volta2
+   Fita 1:  O  y  x  y  #  y [y] x  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  25 | estado: q_or_volta2
+   Fita 1:  O  y  x  y  # [y] y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  26 | estado: q_or_volta2
+   Fita 1:  O  y  x  y [#] y  y  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  27 | estado: q_or_volta1
+   Fita 1:  O  y  x [y] #  y  y  x  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  28 | estado: q_or
+   Fita 1:  O  y  x  y [#] y  y  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  29 | estado: q_rest_dir
+   Fita 1:  O  y  x  y  # [y] y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  30 | estado: q_rest_dir
+   Fita 1:  O  y  x  y  #  1 [y] x  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  31 | estado: q_rest_dir
+   Fita 1:  O  y  x  y  #  1  1 [x] B   (cabeca 1 na posicao 7)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  32 | estado: q_rest_dir
+   Fita 1:  O  y  x  y  #  1  1  0 [B] B   (cabeca 1 na posicao 8)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  33 | estado: q_rest_esq
+   Fita 1:  O  y  x  y  #  1  1 [0] B   (cabeca 1 na posicao 7)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  34 | estado: q_rest_esq
+   Fita 1:  O  y  x  y  #  1 [1] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  35 | estado: q_rest_esq
+   Fita 1:  O  y  x  y  # [1] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  36 | estado: q_rest_esq
+   Fita 1:  O  y  x  y [#] 1  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  37 | estado: q_rest_esq
+   Fita 1:  O  y  x [y] #  1  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  38 | estado: q_rest_esq
+   Fita 1:  O  y [x] 1  #  1  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  39 | estado: q_rest_esq
+   Fita 1:  O [y] 0  1  #  1  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  40 | estado: q_rest_esq
+   Fita 1: [O] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  41 | estado: q_aceita
+   Fita 1: [O] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  1  1 [B] B   (cabeca 2 na posicao 3)
+-> Maquina parou em q_aceita apos 41 passos: ACEITA
+-> Fita 1 final: O101#110
+-> Fita 2 final: 111
+
+==============================================================================
+ENTRADA: O0000#0000
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [O] 0  0  0  0  #  0  0  0  0  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_or
+   Fita 1:  O [0] 0  0  0  #  0  0  0  0  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_or_0
+   Fita 1:  O  x [0] 0  0  #  0  0  0  0  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_or_0
+   Fita 1:  O  x  0 [0] 0  #  0  0  0  0  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_or_0
+   Fita 1:  O  x  0  0 [0] #  0  0  0  0  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_or_0
+   Fita 1:  O  x  0  0  0 [#] 0  0  0  0  B   (cabeca 1 na posicao 5)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   6 | estado: q_or_0w2
+   Fita 1:  O  x  0  0  0  # [0] 0  0  0  B   (cabeca 1 na posicao 6)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   7 | estado: q_or_volta2
+   Fita 1:  O  x  0  0  0 [#] x  0  0  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_or_volta1
+   Fita 1:  O  x  0  0 [0] #  x  0  0  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_or_volta1
+   Fita 1:  O  x  0 [0] 0  #  x  0  0  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_or_volta1
+   Fita 1:  O  x [0] 0  0  #  x  0  0  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_or_volta1
+   Fita 1:  O [x] 0  0  0  #  x  0  0  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_or
+   Fita 1:  O  x [0] 0  0  #  x  0  0  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  13 | estado: q_or_0
+   Fita 1:  O  x  x [0] 0  #  x  0  0  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  14 | estado: q_or_0
+   Fita 1:  O  x  x  0 [0] #  x  0  0  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  15 | estado: q_or_0
+   Fita 1:  O  x  x  0  0 [#] x  0  0  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  16 | estado: q_or_0w2
+   Fita 1:  O  x  x  0  0  # [x] 0  0  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  17 | estado: q_or_0w2
+   Fita 1:  O  x  x  0  0  #  x [0] 0  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  18 | estado: q_or_volta2
+   Fita 1:  O  x  x  0  0  # [x] x  0  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  19 | estado: q_or_volta2
+   Fita 1:  O  x  x  0  0 [#] x  x  0  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  20 | estado: q_or_volta1
+   Fita 1:  O  x  x  0 [0] #  x  x  0  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  21 | estado: q_or_volta1
+   Fita 1:  O  x  x [0] 0  #  x  x  0  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_or_volta1
+   Fita 1:  O  x [x] 0  0  #  x  x  0  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_or
+   Fita 1:  O  x  x [0] 0  #  x  x  0  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_or_0
+   Fita 1:  O  x  x  x [0] #  x  x  0  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  25 | estado: q_or_0
+   Fita 1:  O  x  x  x  0 [#] x  x  0  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  26 | estado: q_or_0w2
+   Fita 1:  O  x  x  x  0  # [x] x  0  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  27 | estado: q_or_0w2
+   Fita 1:  O  x  x  x  0  #  x [x] 0  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  28 | estado: q_or_0w2
+   Fita 1:  O  x  x  x  0  #  x  x [0] 0  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  0 [B] B   (cabeca 2 na posicao 2)
+Passo  29 | estado: q_or_volta2
+   Fita 1:  O  x  x  x  0  #  x [x] x  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  30 | estado: q_or_volta2
+   Fita 1:  O  x  x  x  0  # [x] x  x  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  31 | estado: q_or_volta2
+   Fita 1:  O  x  x  x  0 [#] x  x  x  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  32 | estado: q_or_volta1
+   Fita 1:  O  x  x  x [0] #  x  x  x  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  33 | estado: q_or_volta1
+   Fita 1:  O  x  x [x] 0  #  x  x  x  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  34 | estado: q_or
+   Fita 1:  O  x  x  x [0] #  x  x  x  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  35 | estado: q_or_0
+   Fita 1:  O  x  x  x  x [#] x  x  x  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  36 | estado: q_or_0w2
+   Fita 1:  O  x  x  x  x  # [x] x  x  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  37 | estado: q_or_0w2
+   Fita 1:  O  x  x  x  x  #  x [x] x  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  38 | estado: q_or_0w2
+   Fita 1:  O  x  x  x  x  #  x  x [x] 0  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  39 | estado: q_or_0w2
+   Fita 1:  O  x  x  x  x  #  x  x  x [0] B   (cabeca 1 na posicao 9)
+   Fita 2:  0  0  0 [B] B   (cabeca 2 na posicao 3)
+Passo  40 | estado: q_or_volta2
+   Fita 1:  O  x  x  x  x  #  x  x [x] x  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  41 | estado: q_or_volta2
+   Fita 1:  O  x  x  x  x  #  x [x] x  x  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  42 | estado: q_or_volta2
+   Fita 1:  O  x  x  x  x  # [x] x  x  x  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  43 | estado: q_or_volta2
+   Fita 1:  O  x  x  x  x [#] x  x  x  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  44 | estado: q_or_volta1
+   Fita 1:  O  x  x  x [x] #  x  x  x  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  45 | estado: q_or
+   Fita 1:  O  x  x  x  x [#] x  x  x  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  46 | estado: q_rest_dir
+   Fita 1:  O  x  x  x  x  # [x] x  x  x  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  47 | estado: q_rest_dir
+   Fita 1:  O  x  x  x  x  #  0 [x] x  x  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  48 | estado: q_rest_dir
+   Fita 1:  O  x  x  x  x  #  0  0 [x] x  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  49 | estado: q_rest_dir
+   Fita 1:  O  x  x  x  x  #  0  0  0 [x] B   (cabeca 1 na posicao 9)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  50 | estado: q_rest_dir
+   Fita 1:  O  x  x  x  x  #  0  0  0  0 [B] B   (cabeca 1 na posicao 10)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  51 | estado: q_rest_esq
+   Fita 1:  O  x  x  x  x  #  0  0  0 [0] B   (cabeca 1 na posicao 9)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  52 | estado: q_rest_esq
+   Fita 1:  O  x  x  x  x  #  0  0 [0] 0  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  53 | estado: q_rest_esq
+   Fita 1:  O  x  x  x  x  #  0 [0] 0  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  54 | estado: q_rest_esq
+   Fita 1:  O  x  x  x  x  # [0] 0  0  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  55 | estado: q_rest_esq
+   Fita 1:  O  x  x  x  x [#] 0  0  0  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  56 | estado: q_rest_esq
+   Fita 1:  O  x  x  x [x] #  0  0  0  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  57 | estado: q_rest_esq
+   Fita 1:  O  x  x [x] 0  #  0  0  0  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  58 | estado: q_rest_esq
+   Fita 1:  O  x [x] 0  0  #  0  0  0  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  59 | estado: q_rest_esq
+   Fita 1:  O [x] 0  0  0  #  0  0  0  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  60 | estado: q_rest_esq
+   Fita 1: [O] 0  0  0  0  #  0  0  0  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+Passo  61 | estado: q_aceita
+   Fita 1: [O] 0  0  0  0  #  0  0  0  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0  0  0  0 [B] B   (cabeca 2 na posicao 4)
+-> Maquina parou em q_aceita apos 61 passos: ACEITA
+-> Fita 1 final: O0000#0000
+-> Fita 2 final: 0000
+
+==============================================================================
+ENTRADA: X01#11
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [X] 0  1  #  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_xor
+   Fita 1:  X [0] 1  #  1  1  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_xor_0
+   Fita 1:  X  x [1] #  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_xor_0
+   Fita 1:  X  x  1 [#] 1  1  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_xor_0w2
+   Fita 1:  X  x  1  # [1] 1  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_xor_volta2
+   Fita 1:  X  x  1 [#] y  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   6 | estado: q_xor_volta1
+   Fita 1:  X  x [1] #  y  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   7 | estado: q_xor_volta1
+   Fita 1:  X [x] 1  #  y  1  B   (cabeca 1 na posicao 1)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_xor
+   Fita 1:  X  x [1] #  y  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_xor_1
+   Fita 1:  X  x  y [#] y  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_xor_1w2
+   Fita 1:  X  x  y  # [y] 1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_xor_1w2
+   Fita 1:  X  x  y  #  y [1] B   (cabeca 1 na posicao 5)
+   Fita 2:  1 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_xor_volta2
+   Fita 1:  X  x  y  # [y] y  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  13 | estado: q_xor_volta2
+   Fita 1:  X  x  y [#] y  y  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  14 | estado: q_xor_volta1
+   Fita 1:  X  x [y] #  y  y  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  15 | estado: q_xor
+   Fita 1:  X  x  y [#] y  y  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  16 | estado: q_rest_dir
+   Fita 1:  X  x  y  # [y] y  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  17 | estado: q_rest_dir
+   Fita 1:  X  x  y  #  1 [y] B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  18 | estado: q_rest_dir
+   Fita 1:  X  x  y  #  1  1 [B] B   (cabeca 1 na posicao 6)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  19 | estado: q_rest_esq
+   Fita 1:  X  x  y  #  1 [1] B   (cabeca 1 na posicao 5)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  20 | estado: q_rest_esq
+   Fita 1:  X  x  y  # [1] 1  B   (cabeca 1 na posicao 4)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  21 | estado: q_rest_esq
+   Fita 1:  X  x  y [#] 1  1  B   (cabeca 1 na posicao 3)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_rest_esq
+   Fita 1:  X  x [y] #  1  1  B   (cabeca 1 na posicao 2)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_rest_esq
+   Fita 1:  X [x] 1  #  1  1  B   (cabeca 1 na posicao 1)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_rest_esq
+   Fita 1: [X] 0  1  #  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+Passo  25 | estado: q_aceita
+   Fita 1: [X] 0  1  #  1  1  B   (cabeca 1 na posicao 0)
+   Fita 2:  1  0 [B] B   (cabeca 2 na posicao 2)
+-> Maquina parou em q_aceita apos 25 passos: ACEITA
+-> Fita 1 final: X01#11
+-> Fita 2 final: 10
+
+==============================================================================
+ENTRADA: X101#110
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [X] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_xor
+   Fita 1:  X [1] 0  1  #  1  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_xor_1
+   Fita 1:  X  y [0] 1  #  1  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_xor_1
+   Fita 1:  X  y  0 [1] #  1  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_xor_1
+   Fita 1:  X  y  0  1 [#] 1  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_xor_1w2
+   Fita 1:  X  y  0  1  # [1] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   6 | estado: q_xor_volta2
+   Fita 1:  X  y  0  1 [#] y  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   7 | estado: q_xor_volta1
+   Fita 1:  X  y  0 [1] #  y  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_xor_volta1
+   Fita 1:  X  y [0] 1  #  y  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_xor_volta1
+   Fita 1:  X [y] 0  1  #  y  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_xor
+   Fita 1:  X  y [0] 1  #  y  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_xor_0
+   Fita 1:  X  y  x [1] #  y  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_xor_0
+   Fita 1:  X  y  x  1 [#] y  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  13 | estado: q_xor_0w2
+   Fita 1:  X  y  x  1  # [y] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  14 | estado: q_xor_0w2
+   Fita 1:  X  y  x  1  #  y [1] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  15 | estado: q_xor_volta2
+   Fita 1:  X  y  x  1  # [y] y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  16 | estado: q_xor_volta2
+   Fita 1:  X  y  x  1 [#] y  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  17 | estado: q_xor_volta1
+   Fita 1:  X  y  x [1] #  y  y  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  18 | estado: q_xor_volta1
+   Fita 1:  X  y [x] 1  #  y  y  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  19 | estado: q_xor
+   Fita 1:  X  y  x [1] #  y  y  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  20 | estado: q_xor_1
+   Fita 1:  X  y  x  y [#] y  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  21 | estado: q_xor_1w2
+   Fita 1:  X  y  x  y  # [y] y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_xor_1w2
+   Fita 1:  X  y  x  y  #  y [y] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_xor_1w2
+   Fita 1:  X  y  x  y  #  y  y [0] B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_xor_volta2
+   Fita 1:  X  y  x  y  #  y [y] x  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  25 | estado: q_xor_volta2
+   Fita 1:  X  y  x  y  # [y] y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  26 | estado: q_xor_volta2
+   Fita 1:  X  y  x  y [#] y  y  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  27 | estado: q_xor_volta1
+   Fita 1:  X  y  x [y] #  y  y  x  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  28 | estado: q_xor
+   Fita 1:  X  y  x  y [#] y  y  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  29 | estado: q_rest_dir
+   Fita 1:  X  y  x  y  # [y] y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  30 | estado: q_rest_dir
+   Fita 1:  X  y  x  y  #  1 [y] x  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  31 | estado: q_rest_dir
+   Fita 1:  X  y  x  y  #  1  1 [x] B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  32 | estado: q_rest_dir
+   Fita 1:  X  y  x  y  #  1  1  0 [B] B   (cabeca 1 na posicao 8)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  33 | estado: q_rest_esq
+   Fita 1:  X  y  x  y  #  1  1 [0] B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  34 | estado: q_rest_esq
+   Fita 1:  X  y  x  y  #  1 [1] 0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  35 | estado: q_rest_esq
+   Fita 1:  X  y  x  y  # [1] 1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  36 | estado: q_rest_esq
+   Fita 1:  X  y  x  y [#] 1  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  37 | estado: q_rest_esq
+   Fita 1:  X  y  x [y] #  1  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  38 | estado: q_rest_esq
+   Fita 1:  X  y [x] 1  #  1  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  39 | estado: q_rest_esq
+   Fita 1:  X [y] 0  1  #  1  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  40 | estado: q_rest_esq
+   Fita 1: [X] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  41 | estado: q_aceita
+   Fita 1: [X] 1  0  1  #  1  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+-> Maquina parou em q_aceita apos 41 passos: ACEITA
+-> Fita 1 final: X101#110
+-> Fita 2 final: 011
+
+==============================================================================
+ENTRADA: X1100#1010
+==============================================================================
+Passo   0 | estado: q0
+   Fita 1: [X] 1  1  0  0  #  1  0  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   1 | estado: q_xor
+   Fita 1:  X [1] 1  0  0  #  1  0  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   2 | estado: q_xor_1
+   Fita 1:  X  y [1] 0  0  #  1  0  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   3 | estado: q_xor_1
+   Fita 1:  X  y  1 [0] 0  #  1  0  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   4 | estado: q_xor_1
+   Fita 1:  X  y  1  0 [0] #  1  0  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   5 | estado: q_xor_1
+   Fita 1:  X  y  1  0  0 [#] 1  0  1  0  B   (cabeca 1 na posicao 5)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   6 | estado: q_xor_1w2
+   Fita 1:  X  y  1  0  0  # [1] 0  1  0  B   (cabeca 1 na posicao 6)
+   Fita 2: [B] B   (cabeca 2 na posicao 0)
+Passo   7 | estado: q_xor_volta2
+   Fita 1:  X  y  1  0  0 [#] y  0  1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   8 | estado: q_xor_volta1
+   Fita 1:  X  y  1  0 [0] #  y  0  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo   9 | estado: q_xor_volta1
+   Fita 1:  X  y  1 [0] 0  #  y  0  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  10 | estado: q_xor_volta1
+   Fita 1:  X  y [1] 0  0  #  y  0  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  11 | estado: q_xor_volta1
+   Fita 1:  X [y] 1  0  0  #  y  0  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  12 | estado: q_xor
+   Fita 1:  X  y [1] 0  0  #  y  0  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  13 | estado: q_xor_1
+   Fita 1:  X  y  y [0] 0  #  y  0  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  14 | estado: q_xor_1
+   Fita 1:  X  y  y  0 [0] #  y  0  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  15 | estado: q_xor_1
+   Fita 1:  X  y  y  0  0 [#] y  0  1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  16 | estado: q_xor_1w2
+   Fita 1:  X  y  y  0  0  # [y] 0  1  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  17 | estado: q_xor_1w2
+   Fita 1:  X  y  y  0  0  #  y [0] 1  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0 [B] B   (cabeca 2 na posicao 1)
+Passo  18 | estado: q_xor_volta2
+   Fita 1:  X  y  y  0  0  # [y] x  1  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  19 | estado: q_xor_volta2
+   Fita 1:  X  y  y  0  0 [#] y  x  1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  20 | estado: q_xor_volta1
+   Fita 1:  X  y  y  0 [0] #  y  x  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  21 | estado: q_xor_volta1
+   Fita 1:  X  y  y [0] 0  #  y  x  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  22 | estado: q_xor_volta1
+   Fita 1:  X  y [y] 0  0  #  y  x  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  23 | estado: q_xor
+   Fita 1:  X  y  y [0] 0  #  y  x  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  24 | estado: q_xor_0
+   Fita 1:  X  y  y  x [0] #  y  x  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  25 | estado: q_xor_0
+   Fita 1:  X  y  y  x  0 [#] y  x  1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  26 | estado: q_xor_0w2
+   Fita 1:  X  y  y  x  0  # [y] x  1  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  27 | estado: q_xor_0w2
+   Fita 1:  X  y  y  x  0  #  y [x] 1  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  28 | estado: q_xor_0w2
+   Fita 1:  X  y  y  x  0  #  y  x [1] 0  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  1 [B] B   (cabeca 2 na posicao 2)
+Passo  29 | estado: q_xor_volta2
+   Fita 1:  X  y  y  x  0  #  y [x] y  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  30 | estado: q_xor_volta2
+   Fita 1:  X  y  y  x  0  # [y] x  y  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  31 | estado: q_xor_volta2
+   Fita 1:  X  y  y  x  0 [#] y  x  y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  32 | estado: q_xor_volta1
+   Fita 1:  X  y  y  x [0] #  y  x  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  33 | estado: q_xor_volta1
+   Fita 1:  X  y  y [x] 0  #  y  x  y  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  34 | estado: q_xor
+   Fita 1:  X  y  y  x [0] #  y  x  y  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  35 | estado: q_xor_0
+   Fita 1:  X  y  y  x  x [#] y  x  y  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  36 | estado: q_xor_0w2
+   Fita 1:  X  y  y  x  x  # [y] x  y  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  37 | estado: q_xor_0w2
+   Fita 1:  X  y  y  x  x  #  y [x] y  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  38 | estado: q_xor_0w2
+   Fita 1:  X  y  y  x  x  #  y  x [y] 0  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  39 | estado: q_xor_0w2
+   Fita 1:  X  y  y  x  x  #  y  x  y [0] B   (cabeca 1 na posicao 9)
+   Fita 2:  0  1  1 [B] B   (cabeca 2 na posicao 3)
+Passo  40 | estado: q_xor_volta2
+   Fita 1:  X  y  y  x  x  #  y  x [y] x  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  41 | estado: q_xor_volta2
+   Fita 1:  X  y  y  x  x  #  y [x] y  x  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  42 | estado: q_xor_volta2
+   Fita 1:  X  y  y  x  x  # [y] x  y  x  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  43 | estado: q_xor_volta2
+   Fita 1:  X  y  y  x  x [#] y  x  y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  44 | estado: q_xor_volta1
+   Fita 1:  X  y  y  x [x] #  y  x  y  x  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  45 | estado: q_xor
+   Fita 1:  X  y  y  x  x [#] y  x  y  x  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  46 | estado: q_rest_dir
+   Fita 1:  X  y  y  x  x  # [y] x  y  x  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  47 | estado: q_rest_dir
+   Fita 1:  X  y  y  x  x  #  1 [x] y  x  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  48 | estado: q_rest_dir
+   Fita 1:  X  y  y  x  x  #  1  0 [y] x  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  49 | estado: q_rest_dir
+   Fita 1:  X  y  y  x  x  #  1  0  1 [x] B   (cabeca 1 na posicao 9)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  50 | estado: q_rest_dir
+   Fita 1:  X  y  y  x  x  #  1  0  1  0 [B] B   (cabeca 1 na posicao 10)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  51 | estado: q_rest_esq
+   Fita 1:  X  y  y  x  x  #  1  0  1 [0] B   (cabeca 1 na posicao 9)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  52 | estado: q_rest_esq
+   Fita 1:  X  y  y  x  x  #  1  0 [1] 0  B   (cabeca 1 na posicao 8)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  53 | estado: q_rest_esq
+   Fita 1:  X  y  y  x  x  #  1 [0] 1  0  B   (cabeca 1 na posicao 7)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  54 | estado: q_rest_esq
+   Fita 1:  X  y  y  x  x  # [1] 0  1  0  B   (cabeca 1 na posicao 6)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  55 | estado: q_rest_esq
+   Fita 1:  X  y  y  x  x [#] 1  0  1  0  B   (cabeca 1 na posicao 5)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  56 | estado: q_rest_esq
+   Fita 1:  X  y  y  x [x] #  1  0  1  0  B   (cabeca 1 na posicao 4)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  57 | estado: q_rest_esq
+   Fita 1:  X  y  y [x] 0  #  1  0  1  0  B   (cabeca 1 na posicao 3)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  58 | estado: q_rest_esq
+   Fita 1:  X  y [y] 0  0  #  1  0  1  0  B   (cabeca 1 na posicao 2)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  59 | estado: q_rest_esq
+   Fita 1:  X [y] 1  0  0  #  1  0  1  0  B   (cabeca 1 na posicao 1)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  60 | estado: q_rest_esq
+   Fita 1: [X] 1  1  0  0  #  1  0  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+Passo  61 | estado: q_aceita
+   Fita 1: [X] 1  1  0  0  #  1  0  1  0  B   (cabeca 1 na posicao 0)
+   Fita 2:  0  1  1  0 [B] B   (cabeca 2 na posicao 4)
+-> Maquina parou em q_aceita apos 61 passos: ACEITA
+-> Fita 1 final: X1100#1010
+-> Fita 2 final: 0110
+
+==============================================================================
+RESUMO DOS TESTES: entrada -> resultado esperado -> resultado obtido
+==============================================================================
+A0#0           -> 0        -> 0        [OK] (13 passos)
+A101#110       -> 100      -> 100      [OK] (41 passos)
+A11010#10011   -> 10010    -> 10010    [OK] (85 passos)
+O01#11         -> 11       -> 11       [OK] (25 passos)
+O101#110       -> 111      -> 111      [OK] (41 passos)
+O0000#0000     -> 0000     -> 0000     [OK] (61 passos)
+X01#11         -> 10       -> 10       [OK] (25 passos)
+X101#110       -> 011      -> 011      [OK] (41 passos)
+X1100#1010     -> 0110     -> 0110     [OK] (61 passos)
